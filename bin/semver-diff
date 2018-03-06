@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+const diff = require('semver-diff');
+
+const v1 = process.argv[2];
+const v2 = process.argv[3];
+
+if (!v1 || !v2) {
+  console.log('You need provide version number to compare.');
+  process.exit(1);
+}
+
+console.log(diff(v1, v2));
+

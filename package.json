@@ -1,0 +1,14 @@
+{
+  "name": "semver-diff-cli",
+  "version": "1.0.0",
+  "description": "semver diff command line tool",
+  "author": "zack9433",
+  "license": "MIT",
+  "repository": "zack9433/semver-diff-cli",
+  "bin": {
+    "semver-diff": "bin/semver-diff"
+  },
+  "dependencies": {
+    "semver-diff": "^2.1.0"
+  }
+}
