@@ -1,6 +1,6 @@
 {
-  "name": "semver-diff-cli",
-  "version": "1.0.0",
+  "name": "@znemz/semver-diff-cli",
+  "version": "3.0.0-0",
   "description": "semver diff command line tool",
   "author": "zack9433",
   "license": "MIT",
@@ -9,6 +9,6 @@
     "semver-diff": "bin/semver-diff"
   },
   "dependencies": {
-    "semver-diff": "^2.1.0"
+    "semver-diff": "^3"
   }
 }
